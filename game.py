@@ -1,7 +1,7 @@
 import turtle
-import ball.py as Ball
-import paddle.py as player
-game_Window=turtle.screen()
+from ball import ball  
+from paddle import paddle
+game_Window=turtle.Screen()
 game_Window.bgcolor('black')
 game_Window.setup(width = 900, height = 750)
 game_Window.tracer(0)
